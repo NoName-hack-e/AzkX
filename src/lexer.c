@@ -89,4 +89,5 @@ char* lexer_get_char2str(lexer_T* lexer){
 	str[0]=calloc(2,sizeof(char));
 	str[1]='\0';
 	return str;
+
 }
