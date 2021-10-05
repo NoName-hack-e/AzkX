@@ -7,6 +7,8 @@
 #define max_limit 20
 void print_help(){
 	printf("Usage:\nhello.out <filename>\n");
+	printf("document {url}\n", );
+
 	exit(1);
 }
 
