@@ -12,7 +12,7 @@ out = out/AzkX.o
 
 
 $(exec): $(objects)
-	gcc $(objects) -o $(out) $(exec)
+	gcc -o out/$(obj) $(sources)
 
 %.o: %.c include/%.h
 	gcc -o out/$(obj) src/$(obj)
