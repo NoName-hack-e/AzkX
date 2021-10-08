@@ -4,6 +4,7 @@
 #include "header/tkn.h"
 #include "header/extra.h"
 #include "header/tooMuchError.h"
+#include "header/viseter.h"
 
 
 int main(int argc, char *argv[]){
